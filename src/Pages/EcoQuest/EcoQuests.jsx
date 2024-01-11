@@ -10,7 +10,7 @@ function EcoQuests() {
   ];
   return (
     <div >
-      <h1>EcoQuests</h1>
+      <h1 style={{marginLeft: '200px'}}>EcoQuests</h1>
      <SideNavBar />
      {quests.map((quest, index) => (
         <EcoQuestItem

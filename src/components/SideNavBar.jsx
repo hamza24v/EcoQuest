@@ -21,14 +21,19 @@ export const SideNavBar = () => {
             <NavBar />
             <SideNav.Toggle />
             <SideNav.Nav defaultSelected="home">
-                <NavItem eventKey="oceanquests">
+
+                <NavItem eventKey="Home">
+                    <NavIcon><i className='fa fa-fw fa-arrow-right-from-bracket' style={{ fontSize: "1rem" }} /></NavIcon>
+                    <NavText>Home</NavText>
+                </NavItem>
+                <NavItem eventKey="quests">
                     <NavIcon><i className='fa fa-fw fa-leaf' style={{ fontSize: "1rem" }} /></NavIcon>
-                    <NavText>oceanQuest</NavText>
+                    <NavText>Quests</NavText>
                 </NavItem>
 
-                <NavItem eventKey="dashboard">
+                <NavItem eventKey="profile">
                     <NavIcon><i className='fa fa-fw fa-gauge' style={{ fontSize: "1rem" }} /></NavIcon>
-                    <NavText>Dashboard</NavText>
+                    <NavText>Profile</NavText>
                 </NavItem>
 
 

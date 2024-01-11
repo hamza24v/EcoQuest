@@ -1,7 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import Login from './Pages/Login/Login';
 import EcoQuests from './Pages/EcoQuest/EcoQuests'
+import Home from './Pages/Home/Home';
+import Map from './Pages/Map/Map';
+import Profile from './Pages/Profile/Profile';
 import {
   Routes,
   Route,
@@ -16,7 +18,11 @@ function App() {
   return (
     <Routes>
       {/* <Route path='/' element={<Login />} /> */}
-      <Route path='/' element={<EcoQuests />} />
+      <Route path='/' element={<Login />} />
+      <Route path='/quests' element={<EcoQuests />} />
+      <Route path='/home' element={<Home />} />
+      <Route path='/map' element={<Map />} />
+      <Route path='/profile' element={<Profile />} />
     </Routes>
   );
 }

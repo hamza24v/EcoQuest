@@ -1,8 +1,12 @@
 import React from 'react'
+import { SideNavBar } from './SideNavBar'
 
 function Login() {
   return (
-    <div>Login</div>
+    <div>
+        <SideNavBar/>
+        <h1>Login</h1>
+    </div>
   )
 }
 
