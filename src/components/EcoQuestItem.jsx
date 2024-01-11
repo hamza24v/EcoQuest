@@ -1,6 +1,5 @@
 import React, { useState, useEffect }  from 'react'
-import '../Pages/EcoQuest/EcoQuests.css'
-
+import './comp.css'
 export const EcoQuestItem = ({ title, points, label }) => {
   const [progressPercent, setProgressPercent] = useState(0);
 
