@@ -1,5 +1,5 @@
 import React from 'react'
-import { SideNavBar } from '../../components/SideNavBar';
+import { SideNavBar } from '../components/SideNavBar';
 
 function Map() {
 

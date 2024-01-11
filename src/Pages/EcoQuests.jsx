@@ -1,6 +1,6 @@
 import React from 'react'
-import { EcoQuestItem } from '../../components/EcoQuestItem.jsx'
-import  {SideNavBar} from '../../components/SideNavBar.jsx' 
+import { EcoQuestItem } from '../components/EcoQuestItem.jsx'
+import  {SideNavBar} from '../components/SideNavBar.jsx' 
 
 function EcoQuests() {
   const quests = [

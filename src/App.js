@@ -1,9 +1,9 @@
 import './App.css';
-import Login from './Pages/Login/Login';
-import EcoQuests from './Pages/EcoQuest/EcoQuests'
-import Home from './Pages/Home/Home';
-import Map from './Pages/Map/Map';
-import Profile from './Pages/Profile/Profile';
+import Login from './Pages/Login';
+import EcoQuests from './Pages/EcoQuests'
+import Home from './Pages/Home';
+import Map from './Pages/Map';
+import Profile from './Pages/Profile';
 import {
   Routes,
   Route,
