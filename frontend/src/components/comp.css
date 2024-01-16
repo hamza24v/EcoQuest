@@ -26,7 +26,7 @@
     background-color: rgb(90, 134, 104);
     border-radius: 10px;
     border-width: 4px;
-    width: 600px;
+    width: 500px;
     height: 80px;
     display: flex;
     flex-direction: column;
@@ -64,12 +64,13 @@
     justify-content: center;
     width: calc(var(--progress-percent, 0%) * 1%);
     min-width: 0rem;
-    max-width: calc(100%-1rem);
+    max-width: 99%;
     background-color: #2E4F4F;
-    left: 0.5em;
-    top: 0.5em;
-    bottom: 0.5em;
+    left: 0.2em;
+    top: 0.2em;
+    bottom: 0.2em;
     position: absolute;
     padding: 0.25em;
     border-radius: 1em;
+    box-sizing: border-box;
 }
