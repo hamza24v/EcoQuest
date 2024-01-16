@@ -1,8 +1,8 @@
 import React from 'react'
-import SideNav, { Toggle, NavItem, NavIcon, NavText } from "@trendmicro/react-sidenav"
+import SideNav, { NavItem, NavIcon, NavText } from "@trendmicro/react-sidenav"
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 import { useNavigate } from 'react-router-dom';
-import NavBar from './NavBar';
+import avatar from "../assets/avatar.png";
 
 export const SideNavBar = () => {
     const navigate = useNavigate();
@@ -17,8 +17,11 @@ export const SideNavBar = () => {
             }
         }}
             className="sideNavBar"
-        >
-            <NavBar />
+        >   
+            
+            <h1 className='header'>EcoQuests</h1>
+            <img className= 'avatar' src={avatar} alt='avatar'/>
+            
             <SideNav.Toggle />
             <SideNav.Nav defaultSelected="home">
 

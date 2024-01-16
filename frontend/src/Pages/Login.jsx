@@ -1,13 +1,13 @@
 import React from 'react'
 import { SideNavBar } from '../components/SideNavBar'
 
-function Home() {
+function Login() {
   return (
-    <div style={{alignText: 'center'}}>
+    <div className='login'>
         <SideNavBar/>
-        <h1 style={{marginLeft: '200px'}}>Home</h1>
+        <h1>Login</h1>
     </div>
   )
 }
 
-export default Home
+export default Login

@@ -3,9 +3,9 @@ import { SideNavBar } from '../components/SideNavBar'
 
 function Profile() {
   return (
-    <div>
+    <div className='profile'>
         <SideNavBar />
-        <h1 style={{marginLeft: '200px'}}>Profile</h1>
+        <h1>Profile</h1>
     </div>
   )
 }

@@ -4,9 +4,9 @@ import { SideNavBar } from '../components/SideNavBar';
 function Map() {
 
     return (
-        <div>
+        <div className='map'>
             <SideNavBar />
-            <h1 style={{marginLeft: '200px'}}>Recycle Locations</h1>
+            <h1>Recycle Locations</h1>
 
         </div>
     )
