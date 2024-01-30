@@ -19,7 +19,7 @@ disclaimer: up for change
 
 ## Impact
 
-EcoQuest's model is versatile and can be adapted by various institutions to promote eco-friendly practices:
+EcoQuest can be adapted to various institutions to promote eco-friendly practices:
 
 - **Educational Institutions**: Schools can integrate EcoQuest into their curriculum as a long-term project, offering rewards and recognition to students who reach environmental goals.
 - **Retail**: Eco-conscious markets can incentivize customers with coupons and discounts when they achieve certain sustainability milestones through our platform.
